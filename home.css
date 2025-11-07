@@ -4,20 +4,7 @@
 
 }
 
-.navlogo img{
-    height: 50px;
-    width:auto;
-    margin-top: 8px;
-}
-.navbar{
-    height:65px;
-    width:auto;
-    background-color: var(--red);
-    display:flex;
-    justify-content: space-between;
-    
 
-}
 * {
     margin: 0;
     padding: 0;
@@ -29,48 +16,7 @@ body {
     background-color: #25190e;
 }
 
-.nav-right{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.nav-link {
-    color: #D3D3D3;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 12px 30px;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-    border: #D3D3D3 solid 1px;
-    box-shadow: 0px 9px 11.2px 0px rgba(0, 0, 0, 0.27);
-}
-.cart{
-    font-size: 24px;
-    text-decoration: none;
-    color: #D3D3D3;
-    padding: 12px 20px;
-    border-radius: 25px;
-    transition: all 0.3s ease;
-    display: flex;
-    align-items: center;
-    box-shadow: 0px 9px 11.2px 0px rgba(0, 0, 0, 0.27);
-}
-.nav-link:hover {
-    background-color: #FFA500;
-    color: var(--red);
-    box-shadow: 0px 9px 11.2px 0px rgba(0, 0, 0, 0.27);
-    transform: scale(1.1);
-}
 
-.nav-link.active {
-    background-color: #FFA500;
-    color: white;
-     box-shadow: 0px 9px 11.2px 0px rgba(0, 0, 0, 0.27);
-}
-.cart:hover {
-    transform: scale(1.2);
-    cursor:pointer;
-}
 
 .hero {
     background-image: url('images/burger.png');

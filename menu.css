@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    
+}
+.img-part{
+    background-image: url('images/hamburger-4095155_1280.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #0a0e27;
+    min-height: 400px;
+    display: flex;
+    align-items: flex-start;
+    padding: 145px 80px 50px 80px;
+    position: relative;
+}
