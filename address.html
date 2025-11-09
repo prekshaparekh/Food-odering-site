@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <link rel="stylesheet" href="nav.css">
+        <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.7.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+    <link rel="stylesheet" href="add.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="navlogo"><img src="images/logo.jpg"></div>
+         <div class="nav-right">
+            <a href="home.html" class="nav-link">Home</a>
+            <a href="menu.html" class="nav-link ">Menu</a>
+            <a href="address.html" class="nav-link active">Address</a>
+            <a href="cart.html" class="nav-link">Cart</a>
+            <div class="cart">
+                <i class="ri-shopping-bag-line"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="form-container">
+        <form class="address-form">
+            <fieldset>
+                <legend>Address</legend>
+
+                <!-- form group -->
+                <div class="form-group">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter your city" required>
+            </div>
+
+            <div class="form-group">
+                <label for="house">House no.:</label>
+                <input type="text" id="house" name="house" placeholder="Enter house number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="state">State:</label>
+                <select id="state" name="state" required>
+                    <option value="">Select your state</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Surat">Surat</option>
+                    <option value="Rajkot">Rajkot</option>
+                    <option value="Kashmir">Kashmir</option>
+                    <option value="Maharashtra">Maharashtra</option>
+                    <option value="Karnataka">Karnataka</option>
+                    <option value="Tamil Nadu">Tamil Nadu</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="pincode">Pin code:</label>
+                <input type="text" id="pincode" name="pincode" placeholder="Enter pin code" pattern="[0-9]{6}" required>
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button>
+
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
+
+    

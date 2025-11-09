@@ -1,0 +1,143 @@
+:root{
+    --red:#990000;
+    --yellow:#FFA500;
+    --beige:#EEC187;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+body{
+    background-color: var(--beige);
+    position: relative;
+    top:70px;
+    padding: 50px;
+}
+
+fieldset {
+    background-color:rgba(255, 255, 255, 0.3) ; 
+    border: 3px solid white;
+    border-radius: 15px; 
+    padding: 60px;
+    box-shadow: 0 8px 20px rgba(40, 38, 36, 0.4);
+}
+legend{
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 8px 20px rgba(40, 38, 36, 0.4);
+}
+input{
+    background:rgba(255, 255, 255, 0.5);
+    border: white 2px solid;
+    border-radius: 15px;
+
+}
+label{
+    color: var(--red);
+    font-size: 30px;
+    width: 200px;
+}
+
+input[type="text"] {
+    flex: 1; 
+    padding: 10px 15px;
+    border: 2px solid white;
+    border-radius: 25px; 
+    color: #990000;
+    font-size: 18px;
+    outline: none;
+}
+input[type="text"]:focus{
+    background-color: #eed1ab;
+}
+input[name="name"] {
+            height: 50px;
+            font-size: 18px;
+            max-width: 400px;
+        }
+
+        
+        input[name="city"] {
+            height: 45px;
+            font-size: 16px;
+            max-width: 400px;
+        }
+
+        
+        input[name="house"] {
+            height: 40px;
+            font-size: 15px;
+            max-width: 200px;
+        }
+
+     
+        input[name="state"] {
+            height: 45px;
+            font-size: 16px;
+            max-width: 400px;
+        }
+
+        
+        input[name="pincode"] {
+            height: 40px;
+            font-size: 15px;
+            max-width: 300px;
+        }
+    input[name="state"] {
+            height: 45px;
+            font-size: 16px;
+        }
+
+       
+        select[name="state"] {
+            flex: 1;
+            height: 45px;
+            padding: 12px 20px;
+            border: 2px solid rgba(255, 255, 255, 0.8);
+            border-radius: 25px;
+            font-size: 16px;
+            background:rgba(255, 255, 255, 0.5);
+            outline: none;
+            transition: all 0.3s;
+            cursor: pointer;
+            color: var(--red);
+            max-width: 300px;
+        }
+
+        select[name="state"]:focus {
+            background: #eed1ab;
+            box-shadow: 0 0 10px rgba(255, 215, 0, 0.3);
+        }
+
+       
+
+.submit-btn {
+    background-color: #ffa500;
+    color: var(--red);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 12px 40px;
+    border: none;
+    border-radius: 25px; 
+    cursor: pointer; 
+    display: block;
+    margin: 30px auto 0; 
+    transition: transform 0.2s; 
+    box-shadow: 0 8px 20px rgba(40, 38, 36, 0.4);
+
+}
+.submit-btn:hover {
+    transform: scale(1.05); 
+    background-color: #ff8c00;
+    color: white;
+}
+.form-group{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px; 
+}
